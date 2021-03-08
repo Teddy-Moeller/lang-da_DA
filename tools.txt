@@ -125,31 +125,31 @@ Your Trial key has expired=Din *prøve* licensnøgle er udløbet
 Your Trial key requires an internet connection=Din *prøve* licensnøgle kræver en internet forbindelse
 
 ; Sysdevs text - added May 18, 2020
-A reboot is required to apply changes=
-ALERT=
-Bind selected to VFIO at Boot=
-CPU Thread Pairings=
-Changes saved=
-Function Level Reset FLR supported=Function Level Reset (FLR) supported
-In use by Unraid=
-Kernel driver in use vfio-pci=Kernel driver in use: vfio-pci
-No changes=
-PCI Devices and IOMMU Groups=
-Reboot to take effect=
-SCSI Devices=
-The below list doesnt not reflect the way IOMMU would naturally group devices=The below list doesn't not reflect the way IOMMU would naturally group devices
-This controller is bound to vfio, connected USB devices are not visible=
-This controller is bound to vfio, connected drives are not visible=
-To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=To see natural IOMMU groups for your hardware, go to the [VM Manager] page and set the **PCIe ACS override** setting to **Disabled**
-USB Devices=
-Your system has booted with the PCIe ACS Override setting enabled=
+A reboot is required to apply changes=En genstart er nødvendig for at gennemføre ændringer
+ALERT=ADVARSEL
+Bind selected to VFIO at Boot=Bind valgte til VFIO
+CPU Thread Pairings=CPU tråd paring
+Changes saved=Ændringer gemt
+Function Level Reset FLR supported=Funktion Niveau Nulstilling (FLR - Function Level Reset) understøttet
+In use by Unraid=I brug af Unraid
+Kernel driver in use vfio-pci=Kernel driver i brug: vfio-pci
+No changes=Ingen ændringer
+PCI Devices and IOMMU Groups=PCI enheder og IOMMU grupper
+Reboot to take effect=Genstart før ændringer tager effekt.
+SCSI Devices=SCSI Enheder
+The below list doesnt not reflect the way IOMMU would naturally group devices=Listen nedenfor reflektere ikke måden IOMMU grupper normalt vil liste enhederne
+This controller is bound to vfio, connected USB devices are not visible=Denne enhed er bundet til VFIO, forbundne USB enheder er ikke synlige
+This controller is bound to vfio, connected drives are not visible=Denne enhed er bundet til VFIO, forbundne drivere er ikke synlige
+To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=For at se normale IOMMU grupper for din hardware, gå til [VM Manager] side og sæt **PCIe ACS** tilsidesættelse til **Deaktiveret**
+USB Devices=USB Enheder
+Your system has booted with the PCIe ACS Override setting enabled=Dit system er startet op med ACS tilsidesættelse aktiveret
 
 :diagnostics_1_plug:
-This utility is used for troubleshooting purposes. It will collect all of the system information and configuration files, and package these files in a single ZIP file which can be saved locally.
-Subsequently, this file can be included in your correspondence with Limetech or the Unraid forum.
+This utility is used for troubleshooting purposes. It will collect all of the system information and configuration files, and package these files in a single ZIP file which can be saved locally.=Dette program bruges i forbindelse fejlfinding. Det vil samle alle system informationer, konfigurationer og pakke disse filer i en enkelt ZIP-fil, som can gemmes lokalt.
+Subsequently, this file can be included in your correspondence with Limetech or the Unraid forum.=Efterfølgende bør denne fil være inkluderet i din korrespondance med Limetech eller på Unraids forum.
 
 This will help others to quickly get the inside information of your system and provide better support to your problem. The following information
-and configuration files are collected:
+and configuration files are collected:=Dette vil hjælpe andre brugere til hurtigt få de informationer omkring dit system, så den bedste support kan gives for at løse dit problem. Følgende informationer og konfigurationer bliver indhentet:
 :end
 
 :diagnostics_2_plug:
