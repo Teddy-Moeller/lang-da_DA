@@ -154,21 +154,21 @@ and configuration files are collected:=Dette vil hjælpe andre brugere til hurti
 
 :diagnostics_2_plug:
 + */config*
-  <br>copy all *\*.cfg files*, *go* file and the *super.dat* file. These are configuration files.
+  <br>copy all *\*.cfg files*, *go* file and the *super.dat* file. These are configuration files.=<br>kopiere alle *\*.cfg files*, *go* filer og *super.dat* filen. Disse er konfigurations filer.
 + */config/shares*
-  <br>copy all *\*.cfg* files. These are user share settings files.
+  <br>copy all *\*.cfg* files. These are user share settings files.=  <br>kopiere alle *\*.cfg* filer. Disse er filer brugt til bruger deling opsætninger.
 + *Syslog file(s)*
-  <br>copy the current *syslog* file and any previous existing *syslog* files.
+  <br>copy the current *syslog* file and any previous existing *syslog* files.  <br>copy all *\*.cfg* files. These are user share settings files.=<br>kopiere den nuværende *syslog* fil og evtuelle forhenværende *syslog* filer. <br>kopiere alle *\*.cfg* filer. Disse er filer brugt til bruger deling opsætninger.
 + *System*
-  <br>save output of the following commands:
-  <br>lsscsi, lspci, lsusb, free, lsof, ps, ethtool & ifconfig.
-  <br>display of iommu groups.
-  <br>display of command line parameters (e.g. pcie acs override, pci stubbing, etc).
-  <br>save system variables.
+  <br>save output of the following commands:=<br>gem resultatet af følgende kommandoer:
+  <br>lsscsi, lspci, lsusb, free, lsof, ps, ethtool & ifconfig.=<br>lsscsi, lspci, lsusb, free, lsof, ps, ethtool & ifconfig.
+  <br>display of iommu groups.=visningen af IOMMU grupper
+  <br>display of command line parameters (e.g. pcie acs override, pci stubbing, etc).=visning kommandolinie parametre (f.eks PCIe ACS tilsidesættelse, PCI afslæring osv).
+  <br>save system variables.=<br>gem system variabler.
 + *SMART reports*
-  <br>save a SMART report of each individual disk present in your system.
+  <br>save a SMART report of each individual disk present in your system.=<br>gem en S.M.A.R.T repport af alle induviduelle diske tilgængelig i dit system.
 + *Docker*
-  <br>save files *docker.log*, *libvirtd.log*, *libvirt/qemu/\*.log* and *vfio-pci*.
+  <br>save files *docker.log*, *libvirtd.log*, *libvirt/qemu/\*.log* and *vfio-pci*.=<br>Gem filer *docker.log*, *libvirtd.log*, *libvirt/qemu/\*.log* og *vfio-pci*.=
 :end
 
 :diagnostics_3_plug:
